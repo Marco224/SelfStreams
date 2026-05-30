@@ -1,6 +1,6 @@
 # Deploy SelfStream 🤌
 
-All cloud deployments use a **pre-built Docker image** from DockerHub
+All cloud deployments use a **pre-built Docker image** from DockerHub (READ ENV FOR LOCAL SETUP BELOW)
 
 Two image are now available:
 
@@ -67,6 +67,11 @@ docker run -d -p 7000:7000 qwertyuiop8899/selfstream:develop
 ```
 
 Addon available at `http://your-ip:7000/manifest.json`
+
+for local Instances remote the proxy!
+env:
+SC_PROXY=0
+AU_PROXY=0
 
 ---
 
